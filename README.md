@@ -242,3 +242,11 @@ Can you change the Application spec to enable automatic syncing? Can you enable 
 Enable [Resource Monitoring](https://localhost:8080/settings/projects/default). Now ArgoCD also tracks orphaned resources (all resources not linked to an Application). This is useful maintain clean namespaces.
 
 Can you sync the [Grafana helm chart](https://github.com/grafana/helm-charts/tree/main/charts/grafana) to your cluster using ArgoCD?
+
+
+### 07. Other stuff
+I have no more concrete exercises. But down below you can find a list of some more advanced stuff that might be interesting to dive into.
+- [Liveness, Readiness and Startup Probes](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/)
+- Custom kubernetes controller / operators
+   - https://kopf.readthedocs.io/en/stable/concepts/
+   - https://github.com/kube-rs/controller-rs
